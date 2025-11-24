@@ -10,7 +10,7 @@ interface Result {
   error?: string
 }
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:4000'
+const API_URL = import.meta.env.VITE_API_URL || 'https://gemini-backend-cwpr.onrender.com'
 
 function App() {
   const [prompt, setPrompt] = useState('')
